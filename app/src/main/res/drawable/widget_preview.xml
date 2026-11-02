@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Picker preview: the real widget is a drawn bitmap, so show the app's quote marks instead. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher_fg" android:gravity="center" android:width="96dp" android:height="96dp" />
+</layer-list>

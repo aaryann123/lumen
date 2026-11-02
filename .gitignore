@@ -1,0 +1,25 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+build/
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Machine-specific paths (sdk.dir, JDK)
+local.properties
+
+# Build outputs and signing
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties
+
+# macOS
+.DS_Store
+
+# Node (package.json only holds scripts)
+node_modules/

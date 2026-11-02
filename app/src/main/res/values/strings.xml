@@ -1,0 +1,4 @@
+<resources>
+    <string name="widget_description">Hero and villain lines from the movies. Tap for another.</string>
+    <string name="clock_description">The time as TWELVE 56, with a greeting for the day.</string>
+</resources>

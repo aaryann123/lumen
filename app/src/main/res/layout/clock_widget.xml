@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drawn into a bitmap (ClockWidget.draw) and redrawn every minute: Samsung's lock screen swaps a TextClock's
+     font for its own thin one, which breaks the heavy/thin mix. -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:contentDescription="Clock" />

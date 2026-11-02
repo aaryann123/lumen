@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The quote is drawn into a bitmap (QuoteWidget.draw): Samsung's lock screen restyles widget text (its own size,
+     two lines, its font) and cut lines off. An image it can only scale, so the whole line always shows. -->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/art"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:contentDescription="Movie quote" />

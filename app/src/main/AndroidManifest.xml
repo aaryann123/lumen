@@ -23,6 +23,14 @@
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/quote_widget" />
         </receiver>
 
+        <receiver android:name=".MediaWidget" android:exported="true" android:label="Lumen Music">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="app.lumen.MEDIA" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/media_widget" />
+        </receiver>
+
         <receiver android:name=".ClockWidget" android:exported="true" android:label="Lumen Clock">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
